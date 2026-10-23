@@ -1,0 +1,226 @@
+{
+  "scope": "Static source review, existing JSON/CSV inspection, own synthetic calculations only; no original modules imported or trained.",
+  "archive_sha256": "87b35d6bae5671f63f76e884645bc92b8a16314e86a2c497bc7bf7e1f7f23289",
+  "original_extraction_byte_identical": true,
+  "syntax": [
+    {
+      "file": "report/build_report.py",
+      "parsed": true
+    },
+    {
+      "file": "src/capex_empirical.py",
+      "parsed": true
+    },
+    {
+      "file": "src/capex_plan.py",
+      "parsed": true
+    },
+    {
+      "file": "src/config.py",
+      "parsed": true
+    },
+    {
+      "file": "src/data_prep.py",
+      "parsed": true
+    },
+    {
+      "file": "src/empirical.py",
+      "parsed": true
+    },
+    {
+      "file": "src/features_text.py",
+      "parsed": true
+    },
+    {
+      "file": "src/lexicon.py",
+      "parsed": true
+    },
+    {
+      "file": "src/make_design_figures.py",
+      "parsed": true
+    },
+    {
+      "file": "src/make_result_figures.py",
+      "parsed": true
+    },
+    {
+      "file": "src/ml_models.py",
+      "parsed": true
+    },
+    {
+      "file": "src/plan_fulfillment.py",
+      "parsed": true
+    },
+    {
+      "file": "src/rl_portfolio.py",
+      "parsed": true
+    },
+    {
+      "file": "src/run_all.py",
+      "parsed": true
+    },
+    {
+      "file": "src/specificity.py",
+      "parsed": true
+    },
+    {
+      "file": "src/text_shootout.py",
+      "parsed": true
+    },
+    {
+      "file": "src/transformer_encoder.py",
+      "parsed": true
+    },
+    {
+      "file": "src/verification_metrics.py",
+      "parsed": true
+    },
+    {
+      "file": "src/visualize.py",
+      "parsed": true
+    }
+  ],
+  "external_model_libraries_imported": [],
+  "lag_demo": [
+    {
+      "firm": "A",
+      "fyear": 2018,
+      "score": 10.0,
+      "py": 2018.0,
+      "actual_joined_year": 2019.0,
+      "claimed_lag_score": 20.0
+    },
+    {
+      "firm": "A",
+      "fyear": 2019,
+      "score": 20.0,
+      "py": 2019.0,
+      "actual_joined_year": 2020.0,
+      "claimed_lag_score": 30.0
+    },
+    {
+      "firm": "A",
+      "fyear": 2020,
+      "score": 30.0,
+      "py": NaN,
+      "actual_joined_year": NaN,
+      "claimed_lag_score": NaN
+    }
+  ],
+  "target_demo": {
+    "inputs": {
+      "at_prev": 100.0,
+      "at_now": 200.0,
+      "capx_now": 5.0,
+      "capx_next": 10.0
+    },
+    "code_target": 0.025,
+    "plan_target": 0.0
+  },
+  "fdr_demo": {
+    "p": [
+      0.01,
+      0.011
+    ],
+    "package_q": [
+      0.02,
+      0.02
+    ],
+    "correct_reverse_min_q": [
+      0.011,
+      0.011
+    ]
+  },
+  "loss_variance_demo": {
+    "loss_a": [
+      2.0,
+      0.0,
+      2.0,
+      0.0,
+      2.0,
+      0.0
+    ],
+    "loss_b": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "package_variance": -1.2000000000000004,
+    "negative_variance": true
+  },
+  "verification_sample": {
+    "rows": 100,
+    "a1_topic_labeled": 0,
+    "a2_topic_labeled": 0,
+    "rule_amount_unique": [
+      0.0,
+      1.0
+    ]
+  },
+  "run_all_stages": [
+    "data_prep.py",
+    "features_text.py",
+    "capex_plan.py",
+    "transformer",
+    "ml_models.py",
+    "empirical.py",
+    "capex_empirical.py",
+    "plan_fulfillment.py",
+    "rl_portfolio.py",
+    "make_result_figures.py",
+    "visualize.py"
+  ],
+  "reported_rl_artifacts_not_reproduced": {
+    "ssi_ls": {
+      "n_train_years": 10,
+      "n_total_years": 13,
+      "exposure_min": 0.45180293917655945,
+      "exposure_max": 0.4645063877105713,
+      "reported_agent_sharpe": 0.25026015873690766,
+      "reported_fixed50_sharpe": 0.25013222895948367
+    },
+    "ssi_long": {
+      "n_train_years": 10,
+      "n_total_years": 13,
+      "exposure_min": 0.4487156867980957,
+      "exposure_max": 0.4642517864704132,
+      "reported_agent_sharpe": 0.5587713334605193,
+      "reported_fixed50_sharpe": 0.5572622247916458
+    },
+    "cps_ls": {
+      "n_train_years": 10,
+      "n_total_years": 13,
+      "exposure_min": 0.4563271403312683,
+      "exposure_max": 0.4635835886001587,
+      "reported_agent_sharpe": -0.2989215896386156,
+      "reported_fixed50_sharpe": -0.29531896160227694
+    },
+    "cps_long": {
+      "n_train_years": 10,
+      "n_total_years": 13,
+      "exposure_min": 0.4519369602203369,
+      "exposure_max": 0.4644704759120941,
+      "reported_agent_sharpe": 0.43533097153722267,
+      "reported_fixed50_sharpe": 0.4350278452127848
+    },
+    "neural_ls": {
+      "n_train_years": 10,
+      "n_total_years": 13,
+      "exposure_min": 0.45155569911003113,
+      "exposure_max": 0.46316850185394287,
+      "reported_agent_sharpe": 0.8984975812691247,
+      "reported_fixed50_sharpe": 0.8904977051637534
+    },
+    "neural_long": {
+      "n_train_years": 10,
+      "n_total_years": 13,
+      "exposure_min": 0.4555501639842987,
+      "exposure_max": 0.4640956521034241,
+      "reported_agent_sharpe": 0.5564287954901372,
+      "reported_fixed50_sharpe": 0.5580876810506572
+    }
+  }
+}

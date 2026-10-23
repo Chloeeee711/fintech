@@ -1,0 +1,19 @@
+{
+  "run_dir": "runs/20261022T215534_307871",
+  "summary": {
+    "text_window_processing_complete": true,
+    "financial_scope_rows": 87257,
+    "financial_firms": 10787,
+    "window_index_rows": 47604,
+    "processed_text_rows": 47604,
+    "read_ok": 47604,
+    "text_review_rows": 1398,
+    "metadata_ready_rows": 0,
+    "financial_period_text_matching_complete": false,
+    "training_ready": false,
+    "fitted_scaler": false,
+    "fitted_imputer": false,
+    "fitted_vocabulary": false,
+    "next_step": "补齐并核验申报日期/报告期/表格类型，完成逐财年匹配与原始10-K去重；抽样复核文本清洗，再构造Y及时间划分。"
+  }
+}

@@ -1,0 +1,7 @@
+pandas==2.3.3
+numpy==2.0.2
+pyarrow==21.0.0
+scikit-learn==1.6.1
+scipy==1.13.1
+joblib==1.5.3
+threadpoolctl==3.7.0

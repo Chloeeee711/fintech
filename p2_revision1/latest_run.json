@@ -1,0 +1,19 @@
+{
+  "run_dir": "/Users/chenyanning/Downloads/fintech project2/formal_project/p2_revision1/runs/20261023T114309_956696",
+  "status": {
+    "status": "completed",
+    "source_run": "/Users/chenyanning/Downloads/fintech project2/formal_project/runs/20261022T215534_307871",
+    "training_ready": false,
+    "financial_rows": 87257,
+    "financial_main_y_nonmissing": 65156,
+    "financial_secondary_y_nonmissing": 65363,
+    "financial_2015_2022_rows": 42586,
+    "financial_2015_2022_main_y_nonmissing": 36366,
+    "financial_2015_2022_secondary_y_nonmissing": 36468,
+    "pending_metadata_rows": 47604,
+    "aligned_rows": 0,
+    "fit_transform_executed": false,
+    "neural_and_rl_executed": false,
+    "note": "Financial candidates are not matched text samples. Review metadata, text quarantine, historical availability and downstream training before enabling models."
+  }
+}

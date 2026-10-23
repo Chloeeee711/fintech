@@ -1,0 +1,30 @@
+{
+  "gap_coef_on_roa_fwd": -0.003876779358513084,
+  "gap_t_stat": -1.996072010758185,
+  "n": 20479,
+  "talk_nowalk_vs_rest_diff": 0.0029291068478485283,
+  "talk_nowalk_vs_rest_t": 0.6295351253405481,
+  "quadrants": {
+    "talk_walk": {
+      "n": 5371,
+      "mean_roa_fwd": -0.035654327091264496,
+      "mean_gap": 1.8791530286495237
+    },
+    "talk_nowalk": {
+      "n": 4868,
+      "mean_roa_fwd": -0.0765987562896501,
+      "mean_gap": 2.4053351270464045
+    },
+    "notalk_walk": {
+      "n": 4868,
+      "mean_roa_fwd": -0.0679045039625423,
+      "mean_gap": -0.4229975694074289
+    },
+    "notalk_nowalk": {
+      "n": 5372,
+      "mean_roa_fwd": -0.13392608997443295,
+      "mean_gap": 0.10257815572168112
+    }
+  },
+  "corr_plan_intent_walk": 0.03400147835687737
+}

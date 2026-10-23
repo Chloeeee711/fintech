@@ -1,0 +1,110 @@
+{
+  "baseline": "../vendor/p2_code_original",
+  "files": [
+    {
+      "path": "src/capex_empirical.py",
+      "change": "unchanged",
+      "sha256": "b1b4093b3e0159eabb9665c53cf01e030ab8efb895100c20aefa0179f34d6a46"
+    },
+    {
+      "path": "src/capex_plan.py",
+      "change": "modified",
+      "sha256": "124d1beeb2f3cebb558c1d47e1dcd5e5b0a3010521b2eaff221b64df3fac25a0"
+    },
+    {
+      "path": "src/config.py",
+      "change": "modified",
+      "sha256": "20307b70f3b94aaa11d4dc3bfc1b2331b6558b8d437a80f6d61c963de2a96f07"
+    },
+    {
+      "path": "src/data_prep.py",
+      "change": "modified",
+      "sha256": "ba4f04c0221d949f547e4005590a76e3c20f978e658b710f212d1316d02a4a25"
+    },
+    {
+      "path": "src/empirical.py",
+      "change": "unchanged",
+      "sha256": "b236ae59d02c9b7f90df7e5c679362553feb5b04346c632b875e905b7080eaeb"
+    },
+    {
+      "path": "src/feature_prep_v1.py",
+      "change": "added",
+      "sha256": "6533b18b6095503727a1e5e406333c04054c2ff1c5e904dc1b1576fae6a7fb2a"
+    },
+    {
+      "path": "src/features_text.py",
+      "change": "modified",
+      "sha256": "944218a3e2a84fab9a598daff63da03387757723b9bbb6a302bc1f69837939da"
+    },
+    {
+      "path": "src/lexicon.py",
+      "change": "unchanged",
+      "sha256": "977f16427715289fa911b69cf9a167a1285aece53c137bca75fe31b5606464ec"
+    },
+    {
+      "path": "src/make_design_figures.py",
+      "change": "unchanged",
+      "sha256": "7427a60a7c5a31d6d14300dc529538251ea92a9c41e72cde61eaf1e1d8e97a88"
+    },
+    {
+      "path": "src/make_result_figures.py",
+      "change": "unchanged",
+      "sha256": "f1f5ba148ae312564832227969f041c586be2556af6cfb40d9b9fe9cd4024d49"
+    },
+    {
+      "path": "src/ml_models.py",
+      "change": "unchanged",
+      "sha256": "d9f1ab4dc6385a3f93f404c7ea5290efe5841ab0a54e85860b1464172c86dc2a"
+    },
+    {
+      "path": "src/plan_fulfillment.py",
+      "change": "unchanged",
+      "sha256": "c7ba9d1fe89711c302738275e75398b7cd76bdfc663dc1a9b778155368b9eed6"
+    },
+    {
+      "path": "src/preprocessing_v1.py",
+      "change": "added",
+      "sha256": "7a549a15528f1016fc09baf2896800c1fe2e0cd88e46bd65d3014631ba6a936e"
+    },
+    {
+      "path": "src/rl_portfolio.py",
+      "change": "unchanged",
+      "sha256": "c3227f68fb5feee4d89b6ea5a3c2b4ccdb0750ac0ea1464b3a12d7623fa51cc7"
+    },
+    {
+      "path": "src/run_all.py",
+      "change": "modified",
+      "sha256": "faa601708ccf5356e0950c584319f9e3a705543fbf36d8e0a1d342f0f06155fe"
+    },
+    {
+      "path": "src/specificity.py",
+      "change": "unchanged",
+      "sha256": "7217344a78431bd6010ee28db18be8b232cc2318e5b5e0f1c8e8b695c5a2ac01"
+    },
+    {
+      "path": "src/text_shootout.py",
+      "change": "unchanged",
+      "sha256": "d6ce2dbd8b7f02358203f43c6c9f0336bc00a6d6b3cc2a83aa3832b6f9bf3df5"
+    },
+    {
+      "path": "src/transformer_encoder.py",
+      "change": "unchanged",
+      "sha256": "08c2472066cfbc4953e4476a62cfad1e0580341bce0368f63b25de54e6895e3c"
+    },
+    {
+      "path": "src/validate_preprocessing_v1.py",
+      "change": "added",
+      "sha256": "a898a56e2ca958649b6fb14b0669a4d764772a76656062e2e3b823094d6e36c7"
+    },
+    {
+      "path": "src/verification_metrics.py",
+      "change": "unchanged",
+      "sha256": "43f7a3eb3efaaba5b8e99cfba6358d8baff8f6c8e63fb6c539a43b195a8d0a50"
+    },
+    {
+      "path": "src/visualize.py",
+      "change": "unchanged",
+      "sha256": "9025c744dcb1e7b2bc017abc430935dc834dba990f18af39060e4112f05e5889"
+    }
+  ]
+}

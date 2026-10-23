@@ -1,0 +1,17 @@
+{
+  "n_sentences": 100,
+  "n_rule_positive": 50,
+  "n_rule_negative": 50,
+  "a1": {
+    "n_labeled": 0,
+    "note": "annotator columns empty \u2014 not yet labelled"
+  },
+  "a2": {
+    "n_labeled": 0,
+    "note": "annotator columns empty \u2014 not yet labelled"
+  },
+  "inter_annotator": {
+    "n_both": 0,
+    "note": "second annotator not yet filled"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "neural_score_oos_r2_droa": -0.16228997707366943,
+  "neural_score_corr_droa": -0.015889974537530743,
+  "neural_score_corr_roa": 0.06942685447017566,
+  "neural_score_corr_ret": -0.018209057152797716,
+  "risk_head_auc": {
+    "risk_demand": 0.8340704824016187,
+    "risk_cost": 0.735837959808071,
+    "risk_liquidity": 0.7070094073081503
+  }
+}

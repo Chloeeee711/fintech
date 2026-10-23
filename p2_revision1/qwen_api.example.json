@@ -1,0 +1,10 @@
+{
+  "enabled": false,
+  "reference_model": "Qwen/Qwen2.5-14B-Instruct",
+  "provider": "not_selected",
+  "base_url": "",
+  "served_model_name": "",
+  "api_key_env": "QWEN_API_KEY",
+  "temperature": 0,
+  "note": "Configuration template only. No API client or extraction has run. Confirm the exact model and free quota before enabling. Local Ollama quantization must be recorded separately."
+}

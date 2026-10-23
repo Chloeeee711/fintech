@@ -1,0 +1,11 @@
+{
+  "filing_year_start": 2016,
+  "filing_year_end": 2023,
+  "text_batch_size": 256,
+  "financial_columns": ["gvkey", "cik", "datadate", "fyear", "conm", "tic", "sic", "sich", "curcd", "datafmt", "indfmt", "consol", "fic", "costat", "at", "ni", "ib", "sale", "revt", "capx", "che", "lt", "oancf", "emp", "ppent", "aqc", "fdate", "pdate", "fyr"],
+  "format_filters": {"datafmt": "STD", "indfmt": "INDL", "consol": "C", "curcd": "USD"},
+  "exclude_sic_range": [6000, 6999],
+  "min_text_characters_review": 1000,
+  "metadata_path": "data/external/filing_metadata.csv",
+  "note": "No fiscal-year guessing, outcome imputation, winsorization, or fitted preprocessing in this stage."
+}

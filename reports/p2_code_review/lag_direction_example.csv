@@ -1,0 +1,4 @@
+firm,fyear,score,py,actual_joined_year,claimed_lag_score
+A,2018,10.0,2018.0,2019.0,20.0
+A,2019,20.0,2019.0,2020.0,30.0
+A,2020,30.0,,,
